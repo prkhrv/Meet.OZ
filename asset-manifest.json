@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Meet.OZ/static/css/main.10631d02.css",
+    "main.js": "/Meet.OZ/static/js/main.c242882f.js",
+    "static/media/landing3.jpg": "/Meet.OZ/static/media/landing3.30e2756bd02e1230cf3f.jpg",
+    "index.html": "/Meet.OZ/index.html",
+    "main.10631d02.css.map": "/Meet.OZ/static/css/main.10631d02.css.map",
+    "main.c242882f.js.map": "/Meet.OZ/static/js/main.c242882f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.10631d02.css",
+    "static/js/main.c242882f.js"
+  ]
+}
