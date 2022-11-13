@@ -1,0 +1,150 @@
+.call {
+    height: 100vh;
+    background-color: #222222;
+    display: flex;
+    color: white;
+
+    &__overview {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: 1000;
+        backdrop-filter: blur(6px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+
+        &__modal {
+            height: 700px;
+            width: 650px;
+            background-color: white;
+            border-radius: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            &__content {
+                flex: 1;
+                margin: 50px 50px 50px 0;
+
+                &__title {
+                    font-size: 24px;
+                    margin-left: 50px;
+                }
+
+                &__graph {
+                    display: flex;
+                    justify-content: flex-start;
+                    margin-top: 35px;
+
+                    &__piechart {
+                        flex: 3;
+                    }
+
+                    &__stats {
+                        flex: 2;
+                        display: flex;
+                        flex-direction: column;
+                        font-weight: 600;
+
+                        &__stat {
+                            display: flex;
+                            margin-top: 30px;
+                            align-items: center;
+
+                            &__color {
+                                height: 16px;
+                                width: 16px;
+                                margin-right: 8px;
+                                border-radius: 50px;
+                            }
+
+                            span {
+                                margin: 0 6px;
+                            }
+                        }
+                    }
+                }
+
+                &__submission {
+                    margin-top: 50px;
+                    margin-left: 50px;
+
+                    button {
+                        padding: 8px 16px;
+                        color: black;
+                        border-radius: 10;
+                        margin-right: 20px;
+                        width: 60px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-size: 18px;
+                        width: 200px;
+                    }
+
+                    &__expand {
+                        background-color: #A2CAE0;
+                        margin-bottom: 12px;
+                    }
+
+                    &__description {
+                        font-size: 16px;
+                        color: #A0A0A0;
+                        margin-bottom: 12px;
+                    }
+
+                    &__leave {
+                        display: flex;
+
+                        button {
+                            background-color: #CC6E6E;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &__content {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        margin: 40px 48px;
+
+        &__header {
+            height: 32px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            &__time {
+                display: flex;
+                align-items: center;
+
+                &__switch {
+                    margin-left: 40px;
+                    display: flex;
+                    align-items: center;
+                }
+            }
+
+            &__profile {
+                display: flex;
+                align-items: center;
+
+                &__name {
+                    margin-left: 8px;
+                }
+            }
+        }
+
+        &__videos {
+            flex: 1;
+            margin: 0 100px;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
