@@ -14,7 +14,7 @@ const Home = () => {
             <Navbar />
             <div className="home__body">
                 <div className="home__body__content">
-                    <div className="home__body__content__title">Video Confrencing Meets <span>Artificial Intelligence</span></div>
+                    <div className="home__body__content__title">Video Conferencing Meets <span>Artificial Intelligence</span></div>
                     <div className="home__body__content__description">Meet.oz uses Artificial Intelligence to assist you in understanding emotions of your workers, friends, and loved ones - whether by video, in person, or in the metaverse.</div>
                     <input
                         placeholder="Enter your name"
