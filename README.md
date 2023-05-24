@@ -2,6 +2,8 @@
 
 Meet.OZ is a AI driven Platform specially built for Organizations and Colleges to Analyze Emotions of Participants during an Online Meeting or an Online Class.
 
+<img src="https://github.com/prkhrv/Meet.OZ/blob/main/demo/Screenshot (69).png" height="500">
+
 ## How to Run
 
 ### 1. Clone the Repo
